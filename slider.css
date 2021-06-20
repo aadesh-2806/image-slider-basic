@@ -1,0 +1,56 @@
+body{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(1608801802537.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(24, 24, 24, 0.425);
+    color: blanchedalmond;
+    border: none;
+    border-radius: 50%;
+    width: 0.7em;
+    height: 0.7em;
+}
+.rad1{
+    background-color: ivory;
+}
+.prev , .next{
+    opacity: 0;
+    width: 3em;
+    height: 3em;
+}
+button:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.slider{
+    width: 20em;
+    height: 20em;
+}
+.fix{
+    width: 55em;
+    height: 15em;
+    background-color: ivory;
+    background: url(1608991736771.jpg);
+    background-size: 80em 80em;
+    background-attachment: fixed;
+}
+.no_text{
+    position: absolute;
+}
